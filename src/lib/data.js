@@ -6,50 +6,50 @@ export const projects = [
     title: "World",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/projects/thumbs/earth1.png",
+    image: "/projects/thumbs/Earth1.png",
     link: "/project-details/1",
     type: 'image',
     list: [{
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth1.png",
+      image: "/projects/Earth1.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth2.png",
+      image: "/projects/Earth2.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth3.png",
+      image: "/projects/Earth3.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth4.png",
+      image: "/projects/Earth4.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth5.png",
+      image: "/projects/Earth5.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth6.png",
+      image: "/projects/Earth6.png",
     },
     {
       title: "Earth",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/earth7.png",
+      image: "/projects/Earth7.png",
     }]
   },
   {
@@ -105,26 +105,26 @@ export const projects = [
     title: "Perfume",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/projects/thumbs/perfume.png",
+    image: "/projects/thumbs/Perfume.png",
     link: "/project-details/4",
     type: 'image',
     list: [{
       title: "Perfume 1",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/perfume.png",
+      image: "/projects/Perfume.png",
     },
     {
       title: "Perfume 2",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/perfume1.png",
+      image: "/projects/Perfume1.png",
     },
     {
       title: "Perfume 3",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "/projects/perfume2.png",
+      image: "/projects/Perfume2.png",
     }
   ],
   },
