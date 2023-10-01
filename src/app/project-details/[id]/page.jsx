@@ -14,7 +14,7 @@ const page = ({ params }) => {
               <Image
                 alt="gallery"
                 className=""
-                src={`/${project.image}`}
+                src={`${project.image}`}
                 width={1200}
                 height={600}
                 layout="responsive"
