@@ -101,7 +101,7 @@ export default function Contact() {
           <button
             type="submit"
             disabled={buttonDisabled}
-            className={`text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none rounded text-lg ${!buttonDisabled ? 'hover:bg-indigo-600' : 'bg-gray-500 cursor-not-allowed'}`}>
+            className={`text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${!buttonDisabled ? ' bg-indigo-500 hover:bg-indigo-600' : 'bg-gray-500 cursor-not-allowed'}`}>
             {submitText}
           </button>
         </form>
