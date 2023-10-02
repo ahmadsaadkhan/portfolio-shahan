@@ -169,7 +169,7 @@ export const projects = [
     title: "Laptop",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/projects/thumbs/laptop.png",
+    image: "/projects/thumbs/laptop1.gif",
     link: "/project-details/7",
     type: 'video',
     list: [{

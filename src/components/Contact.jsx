@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from "react";
-import { emailHandler } from "../app/api/email_api";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -9,6 +10,8 @@ export default function Contact() {
     email: '',
     message: '',
   });
+  const [submitText, setSubmitText] = useState('Submit');
+  const [buttonDisabled, setButtonDisabled] = useState(false);
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -18,25 +21,32 @@ export default function Contact() {
   }
   const submitForm = async (e) => {
     e.preventDefault();
-    await emailHandler();
-    // try {
-    //   const response = await fetch('/api/email_api', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify({ key: 'value' }),
-    //   });
-
-    //   if (response.ok) {
-    //     const data = await response.json();
-    //     console.log('Response from POST:', data);
-    //   } else {
-    //     console.error('Failed to send POST request');
-    //   }
-    // } catch (error) {
-    //   console.error('Error sending POST request:', error);
-    // }
+    setSubmitText('Wait...');
+    setButtonDisabled(true)
+    await fetch("/api/email", {
+      method: "POST",
+      body: JSON.stringify(formData),
+    }).then((response) => {
+      if (!response.ok) {
+        toast.error("An error has occurred. Please try again later.", {
+          position: toast.POSITION.TOP_CENTER
+        });
+      }
+      return response.json()
+    }).then((data) => {
+      if (data.message === 'Success') {
+        toast.success("Your email has been sent successfully.", {
+          position: toast.POSITION.TOP_CENTER
+        });
+      }
+      if (data.message === 'Failed') {
+        toast.error("Your email was not sent successfully.", {
+          position: toast.POSITION.TOP_CENTER
+        });
+      }
+    })
+    setSubmitText('Submit');
+    setButtonDisabled(false)
   }
   return (
     <section id="contact" className="relative">
@@ -90,11 +100,13 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            disabled={buttonDisabled}
+            className={`text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none rounded text-lg ${!buttonDisabled ? 'hover:bg-indigo-600' : 'bg-gray-500 cursor-not-allowed'}`}>
+            {submitText}
           </button>
         </form>
       </div>
+      <ToastContainer />
     </section>
   );
 }
