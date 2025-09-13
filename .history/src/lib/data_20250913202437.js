@@ -216,7 +216,7 @@ export const projects = [
       {
         title: "Vampire Bat",
         description:
-          "<h1 class=\"text-3xl font-bold mb-4\">Vampire Bat (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A cute, stylized vampire bat character modeled in Blender. The aim was to create a fluffy, playful design with cartoon-like appeal.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Fur simulation for fluffy effect.</li>\n  <li>Cartoon-style proportions with big eyes and fangs.</li>\n  <li>Simple lighting for soft character presentation.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  Made to practice character modeling, stylization, and playful rendering in Blender.\n</p>",
+          "<h1>Vampire Bat (Blender 3D)</h1>\n<p>\n  A cute, stylized vampire bat character modeled in Blender. The aim was to create a fluffy, playful design with cartoon-like appeal.\n</p>\n\n<h2>Key Features</h2>\n<ul>\n  <li>Fur simulation for fluffy effect.</li>\n  <li>Cartoon-style proportions with big eyes and fangs.</li>\n  <li>Simple lighting for soft character presentation.</li>\n</ul>\n\n<h2>Purpose of the Project</h2>\n<p>\n  Made to practice character modeling, stylization, and playful rendering in Blender.\n</p>",
         image: "/projects/Vampire-bat.png",
       }
     ],
@@ -234,10 +234,9 @@ export const projects = [
       {
         title: "Robot",
         description:
-          "<h1 class=\"text-3xl font-bold mb-4\">Cute Futuristic Robot (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  This project is a stylized robot design created in Blender. The goal was to achieve a playful, toy-like appearance while maintaining a polished, modern aesthetic suitable for concept art, animations, or product design.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Rounded body with wheels for mobility, giving a mix of futuristic and friendly toy-like vibes.</li>\n  <li>Digital face display using emissive shaders for expressive emotions.</li>\n  <li>Glossy white plastic body with metallic accents for sleek finish.</li>\n  <li>Soft studio-style lighting with warm underglow.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  Designed to practice stylized character modeling, hard-surface modeling, and playful rendering in Blender.\n</p>",
+          "<h1>Cute Futuristic Robot (Blender 3D)</h1>\n<p>\n  This project is a stylized robot design created in Blender. The goal was to achieve a playful, toy-like appearance while maintaining a polished, modern aesthetic suitable for concept art, animations, or product design.\n</p>\n\n<h2>Key Features</h2>\n<ul>\n  <li>Rounded body with wheels for mobility, giving a mix of futuristic and friendly toy-like vibes.</li>\n  <li>Digital face display using emissive shaders for expressive emotions.</li>\n  <li>Glossy white plastic body with metallic accents for sleek finish.</li>\n  <li>Soft studio-style lighting with warm underglow.</li>\n  <li>Here’s the **fully rewritten JSON** with **consistent HTML descriptions** for all 10 projects, following the same structure as your robot.\n</p>",
         image: "/projects/robot.png",
-      }
-    ],
+      }],
   },
 ];
 

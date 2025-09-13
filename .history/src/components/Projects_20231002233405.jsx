@@ -3,7 +3,6 @@ import React from "react";
 import { projects } from "../lib/data";
 import Image from "next/image";
 import Link from "next/link";
-import parse from "html-react-parser";
 
 export default function Projects() {
   projects.sort((a, b) => a.sort - b.sort);
@@ -13,7 +12,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Projects I've Built
+            Apps I've Built
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -35,7 +34,7 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-green-400 mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{parse(project.description)}</p>
+                  <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
             </Link>

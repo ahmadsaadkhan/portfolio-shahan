@@ -1,6 +1,5 @@
 import { projects } from "../../../lib/data";
 import Image from "next/image";
-import parse from "html-react-parser";
 
 const page = ({ params }) => {
   const { id } = params;
@@ -28,7 +27,7 @@ const page = ({ params }) => {
                 </video>
               </div>
             )}
-            <p className="text-center pt-5">{parse(project.description)}</p>
+            <p className="text-center pt-5">{project.description}</p>
           </div>
         ))}
       </div>
