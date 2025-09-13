@@ -81,16 +81,16 @@ export const projects = [
     id: 3,
     parent: 0,
     sort: 5,
-    title: "House",
-    description: "Modern House (Blender 3D)",
+    title: "Coffee Shop",
+    description: "Coffee Shop (Blender 3D)",
     image: "/projects/thumbs/house.jpg",
     link: "/project-details/3",
     type: 'image',
     list: [
       {
-        title: "House 1",
+        title: "Coffee Shop",
         description:
-          "<h1 class=\"text-3xl font-bold mb-4\">Modern House (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A clean, modern 3D house model created in Blender. The project aims to represent architectural visualization with minimalistic design.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Stylized grass and exterior landscaping.</li>\n  <li>Simple yet realistic architectural proportions.</li>\n  <li>Soft lighting to enhance depth and materials.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  Created as a practice in architectural visualization and exterior rendering.\n</p>",
+          "<h1 class=\"text-3xl font-bold mb-4\">Coffee Shop (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A stylized miniature coffee shop model built in Blender. The design has a cozy, low-poly feel suitable for games or animations.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Cartoonish proportions and playful design.</li>\n  <li>Warm lighting for nighttime atmosphere.</li>\n  <li>Simple geometry with clean textures.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  This project was created to practice stylized environment modeling and rendering in Blender.\n</p>",
         image: "/projects/house.jpg",
       },
       {
@@ -171,19 +171,19 @@ export const projects = [
     id: 7,
     parent: 0,
     sort: 2,
-    title: "Coffee Shop",
-    description: "Coffee Shop (Blender 3D)",
+    title: "Modern House",
+    description: "Modern House (Blender 3D)",
     image: "/projects/thumbs/House3.png",
     link: "/project-details/7",
-    type: 'image',
+    type: "image",
     list: [
       {
-        title: "Coffee Shop",
+        title: "Modern House",
         description:
-          "<h1 class=\"text-3xl font-bold mb-4\">Coffee Shop (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A stylized miniature coffee shop model built in Blender. The design has a cozy, low-poly feel suitable for games or animations.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Cartoonish proportions and playful design.</li>\n  <li>Warm lighting for nighttime atmosphere.</li>\n  <li>Simple geometry with clean textures.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  This project was created to practice stylized environment modeling and rendering in Blender.\n</p>",
-        image: "/projects/House3.png",
+          "<h1 class=\"text-3xl font-bold mb-4\">Modern House (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A stylized modern house model built in Blender. The design has a sleek, low-poly aesthetic suitable for games or animations.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Clean lines and contemporary architecture.</li>\n  <li>Natural lighting to enhance realism.</li>\n  <li>Simple geometry with smooth textures.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  This project was created to practice stylized environment modeling and rendering in Blender.\n</p>",
+        image: "/projects/House3.png"
       }
-    ],
+    ]
   },
   {
     id: 8,
