@@ -173,7 +173,7 @@ export const projects = [
     sort: 2,
     title: "Coffee Shop",
     description: "Coffee Shop (Blender 3D)",
-    image: "/projects/thumbs/house3.png",
+    image: "/projects/thumbs/House3.png",
     link: "/project-details/7",
     type: 'image',
     list: [
@@ -181,7 +181,7 @@ export const projects = [
         title: "Coffee Shop",
         description:
           "<h1 class=\"text-3xl font-bold mb-4\">Coffee Shop (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  A stylized miniature coffee shop model built in Blender. The design has a cozy, low-poly feel suitable for games or animations.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Cartoonish proportions and playful design.</li>\n  <li>Warm lighting for nighttime atmosphere.</li>\n  <li>Simple geometry with clean textures.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  This project was created to practice stylized environment modeling and rendering in Blender.\n</p>",
-        image: "/projects/house3.png",
+        image: "/projects/House3.png",
       }
     ],
   },
@@ -227,7 +227,7 @@ export const projects = [
     sort: 1,
     title: "Robot",
     description: "Cute Futuristic Robot (Blender 3D)",
-    image: "/projects/thumbs/robot.png",
+    image: "/projects/thumbs/Robot.png",
     link: "/project-details/10",
     type: 'image',
     list: [
@@ -235,7 +235,7 @@ export const projects = [
         title: "Robot",
         description:
           "<h1 class=\"text-3xl font-bold mb-4\">Cute Futuristic Robot (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">\n  This project is a stylized robot design created in Blender. The goal was to achieve a playful, toy-like appearance while maintaining a polished, modern aesthetic suitable for concept art, animations, or product design.\n</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Rounded body with wheels for mobility, giving a mix of futuristic and friendly toy-like vibes.</li>\n  <li>Digital face display using emissive shaders for expressive emotions.</li>\n  <li>Glossy white plastic body with metallic accents for sleek finish.</li>\n  <li>Soft studio-style lighting with warm underglow.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">\n  Designed to practice stylized character modeling, hard-surface modeling, and playful rendering in Blender.\n</p>",
-        image: "/projects/robot.png",
+        image: "/projects/Robot.png",
       }
     ],
   },
