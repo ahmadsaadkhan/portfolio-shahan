@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     parent: 0,
-    sort: 6,
+    sort: 11,
     title: "World",
     description: "Earth (Blender 3D)",
     image: "/projects/thumbs/Earth1.png",
@@ -56,7 +56,7 @@ export const projects = [
   {
     id: 2,
     parent: 0,
-    sort: 3,
+    sort: 10,
     title: "Football Field",
     description: "Football Field (Blender 3D)",
     image: "/projects/thumbs/Football-Field.png",
@@ -80,7 +80,7 @@ export const projects = [
   {
     id: 3,
     parent: 0,
-    sort: 5,
+    sort: 9,
     title: "Coffee Shop",
     description: "Coffee Shop (Blender 3D)",
     image: "/projects/thumbs/house.jpg",
@@ -104,7 +104,7 @@ export const projects = [
   {
     id: 4,
     parent: 0,
-    sort: 7,
+    sort: 8,
     title: "Perfume",
     description: "Perfume Bottle (Blender 3D)",
     image: "/projects/thumbs/Perfume.png",
@@ -134,7 +134,7 @@ export const projects = [
   {
     id: 5,
     parent: 0,
-    sort: 4,
+    sort: 7,
     title: "Rubix Cube",
     description: "Rubik’s Cube (Blender 3D)",
     image: "/projects/thumbs/RubixCube.png",
@@ -152,7 +152,7 @@ export const projects = [
   {
     id: 6,
     parent: 0,
-    sort: 3,
+    sort: 6,
     title: "Pokemon Ball",
     description: "Pokéball (Blender 3D)",
     image: "/projects/thumbs/PokemonBall.png",
@@ -170,7 +170,7 @@ export const projects = [
   {
     id: 7,
     parent: 0,
-    sort: 2,
+    sort: 5,
     title: "Modern House",
     description: "Modern House (Blender 3D)",
     image: "/projects/thumbs/House3.png",
@@ -188,7 +188,7 @@ export const projects = [
   {
     id: 8,
     parent: 0,
-    sort: 2,
+    sort: 4,
     title: "Laptop",
     description: "Laptop Animation (Blender 3D)",
     image: "/projects/thumbs/laptop1.gif",
@@ -206,7 +206,7 @@ export const projects = [
   {
     id: 9,
     parent: 0,
-    sort: 1,
+    sort: 3,
     title: "Vampire Bat",
     description: "Vampire Bat (Blender 3D)",
     image: "/projects/thumbs/Vampire-bat.png",
@@ -224,7 +224,7 @@ export const projects = [
   {
     id: 10,
     parent: 0,
-    sort: 1,
+    sort: 2,
     title: "Robot",
     description: "Cute Futuristic Robot (Blender 3D)",
     image: "/projects/thumbs/Robot.png",
