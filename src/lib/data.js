@@ -240,17 +240,17 @@ export const projects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     parent: 0,
     sort: 1,
     title: "Low Poly Island House Scene",
     description: "Low Poly Island House Scene (Blender 3D)",
     image: "/projects/thumbs/LowPolyENviornment.png",
-    link: "/project-details/10",
+    link: "/project-details/11",
     type: 'image',
     list: [
       {
-        title: "Robot",
+        title: "Low Poly Island House Scene",
         description:
           "<h1 class=\"text-3xl font-bold mb-4\">Stylized Floating Island (Blender 3D)</h1>\n<p class=\"leading-relaxed mb-4\">This is a 3D low-poly environment design featuring a stylized floating island with a wooden house surrounded by nature. The scene combines architectural modeling with environmental assets, demonstrating both creativity and technical skill in 3D modeling.</p>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Key Features</h2>\n<ul class=\"list-disc list-inside space-y-2 mb-4\">\n  <li>Low-poly floating island with stylized natural elements.</li>\n  <li>Wooden house structure showcasing simple yet detailed architecture.</li>\n  <li>Trees, rocks, and greenery adding depth and atmosphere.</li>\n  <li>Balanced use of colors and lighting to create a warm, inviting environment.</li>\n</ul>\n\n<h2 class=\"text-2xl font-semibold mt-6 mb-2\">Purpose of the Project</h2>\n<p class=\"leading-relaxed mb-4\">Created to practice low-poly environment design, architectural modeling, and the integration of stylized assets in Blender.</p>",
         image: "/projects/LowPolyENviornment.png",
